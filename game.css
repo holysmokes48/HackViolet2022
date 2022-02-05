@@ -1,0 +1,43 @@
+/* Modal on game page */
+.modal {
+  position: absolute;
+  display: none;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  border-radius: 6px;
+  height: 500px;
+  width: 500px;
+  background: white;
+}
+
+.modal {
+  text-align: center;
+}
+
+.close {
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ccc;
+}
+
+.close:hover {
+  color: black;
+}
+
+/* End of modal */
+
+.main {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main p {
+  text-align: center;
+}
