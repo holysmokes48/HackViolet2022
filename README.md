@@ -1,4 +1,4 @@
-# HackViolet2022 || [CS Simpli](https://hackviolet.applsauce.repl.co/)
+# [HackViolet2022](https://devpost.com/software/cs-simpli)|| [CS Simpli](https://hackviolet.applsauce.repl.co/)
 
 ![CS Simpli Logo](logo.png)
 
