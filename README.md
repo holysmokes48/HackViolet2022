@@ -1,5 +1,7 @@
 # HackViolet2022
 
+![CS Simpli Logo](logo.png)
+
 ## Inspiration
 Our team's inspiration behind this project is to make computer science concepts fun and easy to learn! In the wake of COVID, people have been considering many career changes and computer science has been one of the growing career fields that people are joining. Therefore, our team wanted to have a platform that is beginner-friendly for those interested in computer science and other related tech topics. 
 
