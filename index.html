@@ -12,37 +12,44 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <style>
-      
-    </style>
+
+ <!-- Tab Icon -->
+  <link rel="icon" href="logo.svg">
   </head>
   
   <body>
 
-  <!-- Navbar content -->
-
+  <!-- Navbar -->
+ <div class = "navbar">
   <!-- Navbar Icon -->
-  <ul class="nav justify-content-left">
-    <a href="index.html" class="brand-logo">
-      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-joystick" viewBox="0 0 16 16">
-        <path d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2z"/>
-        <path d="M0 9.665v1.717a1 1 0 0 0 .553.894l6.553 3.277a2 2 0 0 0 1.788 0l6.553-3.277a1 1 0 0 0 .553-.894V9.665c0-.1-.06-.19-.152-.23L9.5 6.715v.993l5.227 2.178a.125.125 0 0 1 .001.23l-5.94 2.546a2 2 0 0 1-1.576 0l-5.94-2.546a.125.125 0 0 1 .001-.23L6.5 7.708l-.013-.988L.152 9.435a.25.25 0 0 0-.152.23z"/>
-      </svg>2022 HackViolet Hackathon
-    </a>
-  </ul>
+    <ul class="nav justify-content-left">
+      <a href="index.html" class="brand-logo">
+<img src = "logo.svg" alt = "logo" width = "50" height = "50" />
   
-  <!-- Navbar Links -->
-  <ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-  </li>
+      </a>
+      <h2>2022 HackViolet Hackathon</h2>
+    </ul>
+    
+    <!-- Navbar Links -->
+    <ul class="nav justify-content-end">
     <li class="nav-item">
-    <a class="nav-link" aria-current="page" href="index.html">About</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="game.html">Game</a>
-  </li>
-</ul>
+      <a class="nav-link" aria-current="page" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="game.html">Game</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="blockchain/blockchain.html">Blockchain</a>
+    </li>
+      <li class="nav-item">
+      <a class="nav-link" aria-current="page" href="#mission">Our Mission</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://HackViolet.applsauce.repl.co/#team">Our Team</a>
+    </li>
+  </ul>
+
+</div>
 
 <!-- Carousel -->
 <div id="carouselExampleIndicators" class="carousel-slide" data-bs-ride="carousel">
@@ -53,13 +60,25 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" alt="woman and man sitting in front of computer">
+      <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" alt="woman and man sitting in front of computer" height="850">
+
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Learn new concepts</h1>
+      </div>
     </div>
     <div class="carousel-item">
-      <img src="https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" alt="electronic circuit board">
+      <img src="https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" alt="electronic circuit board" height="850">
+      
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Apply your knowledge</h1>
+      </div>
     </div>
     <div class="carousel-item">
-      <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" alt="writing notes by computer">
+      <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" alt="writing notes by computer" height="850">
+      
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Have fun while learning</h1>
+      </div>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -73,22 +92,102 @@
 </div>
 
 <!-- Brief Section about Game -->
+<div class = "card-container">
   <!-- Cards -->
-<div class="card">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Our Game</h5>
-    <p class="card-text">Our Team's idea for the 2022 HackViolet Hackathon was to create a game that allows students to learn computer science fundamentals while having fun!</p>
+  <div class="card">
+    <img src="https://cdn.pixabay.com/photo/2019/04/12/08/44/pacman-4121590_1280.png" class="card-img-top" alt="maze" height="850" width="200">
+    <div class="card-body">
+      <h2 class="card-title">Our Game</h2>
+      <p class="card-text">Our Team's idea for the 2022 HackViolet Hackathon was to create a game that allows students to learn computer science fundamentals while having fun!</p>
     <a href="game.html" class="btn btn-primary">Get Started</a>
+    </div>
+  </div>
+</div>
+
+<!-- Brief Section about Blockchain -->
+<div class = "blockchain-container">
+  <!-- Cards -->
+  <div class="card">
+    <img src="https://media.discordapp.net/attachments/939469765561442314/939855845766869032/transformation-6934553_1920.jpg?width=1260&height=576" class="card-img-top blockchain-img" alt="maze" height="850" width="200">
+    <div class="card-body">
+      <h2 class="card-title">The Blockchain</h2>
+      <p class="card-text">The growth of cryptocurrency and blockchain technologies resulted in a 118% increase in job postings. Learn about the basics of blockchain and web3 and how to get started learning!</p>
+    <a href="blockchain/blockchain.html" class="btn btn-primary">Get Started</a>
+    </div>
   </div>
 </div>
 
 <!-- About Section -->
-<div class="jumbotron jumbotron-fluid">
-  <div class="jumbotron-container">
-    <h1 class="display-4">About Us</h1>
-    <h3>Our Mission...</h3>
-    <h3>Meet the Developers!</h3>
+    <div class = "mission-container">
+      <div class = "left-side">
+        <h2 class = "mission-title"><a id="mission">Our Mission</a></h2>
+      </div>
+
+      <div class = "right-side">
+        <p class = "mission-text">1. Provide more exposure to different tech fields.</p>
+        <p class = "mission-text">2. Provide more understanding to computer science principles.</p>
+        <p class = "mission-text">3. Make learning fun!</p>
+
+      </div>
+    </div>
+    
+    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron-container">
+    <h1><a id = "team">Meet the Developers!</a></h1>
+    <table>
+      <!-- Row 1 of Profiles -->
+      <tr>
+        <th>
+          <img src="https://media-exp1.licdn.com/dms/image/D4D35AQFbdPqsPiNBeA/profile-framedphoto-shrink_400_400/0/1632853977684?e=1644195600&v=beta&t=C9Oeli6ZoBYLpN2zm7XSCpenDs3JdJHwC1yosAxIHkk" alt="shirleys picture" class = "profile-images">
+          <h5>Shirley N. (She/Her)</h5>
+          <a href="https://github.com/holysmokes48">My Github!</a>
+        </th>
+  
+        <th>
+          <h4>About Me</h4>
+          <p>I study cybersecurity at John Jay College of Crminal Justice. My interests in tech are penetration testing and cloud computing.</p>
+        </th>
+
+        <th>
+          <img src="https://avatars.githubusercontent.com/u/71729464?v=4" alt="Alex's picture" class = "profile-images">
+          <h5>Alex S. (Any/All)</h5>
+          <a href="https://github.com/TypicalStep">My Github!</a>
+        </th>
+
+        <th>
+          <h4>About Me</h4>
+          <p>I'm a student at Highland School of Technology. My interests in tech are front-end development and design.</p>
+        </th>
+
+      </tr>
+      <!-- Row 2 of Profiles -->
+      <tr>
+        <th>
+          <img src="https://images-ext-1.discordapp.net/external/KAo5ZhH0o7bgyqSET2w6K_4GQupUvVpa0awb0sB1KNo/%3Fv%3D4/https/avatars.githubusercontent.com/u/94207752?width=300&height=300" alt="Murphy's picture" class = "profile-images">
+          <h5>Emm McCee (She/Her)</h5>
+          <a href="https://github.com/Delphindae99">My Github!</a>
+        </th>
+
+        <th>
+          <h4>About Me</h4>
+          <p>I'm homeschooled. My passions are marine biology, coding, and art.</p>
+        </th>
+
+        <th>
+          <img src="https://avatars.githubusercontent.com/u/80591698?v=4" alt="Amandas's picture" class = "profile-images">
+          <h5>Amanda W. (She/Her)</h5>
+          <a href="https://github.com/Laptop-Salad">My Github!</a>
+        </th>
+
+        <th>
+          <h4>About Me</h4>
+          <p>I'm a highschooler in Scotland/UK who is passionate about coding, computer science and I play way too much minecraft in my spare time.</p>
+        </th>
+
+      </tr>
+    </table>
+      
+
   </div>
 </div>
 

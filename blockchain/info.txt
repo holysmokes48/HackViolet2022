@@ -1,0 +1,32 @@
+The creation of the blockchain:
+In simple terms, blockchain is a chain of blocks that record information in such a way that said information is impossible to be hacked, changed or manipulated.
+
+1991 => Stuart Harber and W Scott Stornetta spoke about the possibility of a cryptographically secured chain of
+blocks.
+
+1998 => Nick Szabo, a computer scientist, started to work on a decentralised currency called "bit gold"
+
+2000 => Stefan Konst releases an idea about cryptographically secured chains and also gives ideas for
+designing and developing it
+
+2008 => A single or group of developer(s) published a white paper putting in place a model for a blockchain.
+The developer(s) were known as Satoshi Nakamoto which people believe to be a pseudonym.
+
+2009 => Satoshi Nakamoto creates the first public ledger on a blockchain where transactions can be made.
+
+Now => There are other popular blockchains such as Ethereum and R3 Corda.
+
+How it works:
+Most public blockchains contain these fundamental components:
+- A peer-to-peer network
+- Messages to declare state transitions
+- A consensus algorithm (rules)
+- A state machine to work with the consensus algorithm
+- A chain of cryptographically secured blocks
+- A incentivization scheme
+- An open source implementatiom of at least one of the above components
+
+Learn More:
+https://cryptozombies.io/
+https://buildspace.so/
+https://ethereum.github.io/yellowpaper/paper.pdf

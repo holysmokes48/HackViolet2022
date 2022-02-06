@@ -1,0 +1,27 @@
+(inspiration)
+Our inspiration came from wanting more people in stem and computer science. We saw that there was a lack of women in tech related companies and we thouhgt it would be cool to try to work on that problem and try to get more people involved.
+
+(what it does)
+CS Simpli gives an introduction to computer science, especially for high school students, and maybe others as well. There is a maze game that is supposed to (i dont know what to put here) These things are supposed to get people interested and introduced to different things about computer sccience.
+
+(how we built it)
+In the brainstorming stage, we created a few different ideas and created a slight mock up of what the layout of the game and website were going to be. After that we created our layouts and our team started working on designing and the game prototype. In the design process we started from the top to the ground. We  created a carousel of images, added links to our game, filled in images, finished up the colors, and then created a logo.
+
+(challeneges we ran into)
+One big challenge we faced was the time limit. Since we only had 24 hours to complete our idea and have it working functionally. Although it is a bit rushed, we were able to finish something we are proud of. Also in the game we hit a few roadblocks. We tried to get past this by talking to many different people and mentors. For the designing part, we had a few challeneges getting the colors to be right,
+
+(accomplishments we are proud of)
+We are proud 
+(what we learned)
+
+(whats next for our thing)
+We plan on adding more features such as a list of tech related jobs that are likely to be open, different cool tech related events, different subjects, and more games! These things could be beneficial to get more people into the tech world.
+
+
+(languages used)
+html, css, javascript, photoshop, illustrator
+
+
+
+also what do we wanna call our project
+CS Simpli
