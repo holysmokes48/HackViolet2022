@@ -1,4 +1,4 @@
-# HackViolet2022
+# HackViolet2022 || [CS Simpli](https://hackviolet.applsauce.repl.co/)
 
 ![CS Simpli Logo](logo.png)
 
@@ -7,6 +7,8 @@ Our team's inspiration behind this project is to make computer science concepts 
 
 ## What it does
 CS Simpli introduces you to important computer science fundamentals such as data structures and algorithms in a game format. What better way to learn than by having fun!
+
+## Our Demo
 
 ## How we built it
 CS Simpli is deployed as a website that was created using HTML, CSS, Javascript, and Bootstrap. Utilizing bootstrap, allowed us to use various HTML components for our project's website. It provided us with lightweight code without the worry of lack of technical experience. 
